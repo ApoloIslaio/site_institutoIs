@@ -1,0 +1,136 @@
+
+html{
+    font-size: 50%;
+}
+/* 
+Media queries
+*/
+@media screen and (max-width: 1100px) {
+    .header{
+        flex-direction: column;
+    }
+    .menu{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .menu_mobile{
+        display:none;
+    }
+    .icons_social{
+        padding: 5px;
+    }
+    .c_ideias{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .center{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu{
+       display: none;
+    }
+    .icons_social{
+        display: none;
+    }
+    .menu_mobile{
+        display:flex;
+    }
+    .menu_mobile_btn i{
+       display: block;  
+       font-size: 3.4rem;
+       padding: 10px;
+    }
+    .menu_mobile_btn{
+        margin-left: 0px;
+
+    }
+
+    .intro01{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        color: white;
+    }
+    .intro01 h3{
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    .intro01 p{
+        max-width: 70%;
+        font-size: 1.9rem;
+    }
+
+
+    .content{
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+     
+    }
+    .content h3{
+        font-size: 2em;
+        color: #004d96;
+        max-width:100%;
+        margin-bottom: 8px;
+        
+    }
+    .content p{
+        max-width: 90%;
+        font-size: 2.4rem;
+         
+     }
+
+    .ideia{
+       
+        width: 80%;
+        color: #004d96;
+        background-color: white;
+        margin: 10px 10px;
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: 4px 4px 4px rgb(41, 41, 41);
+    }
+    .ideia h4{
+        font-size: 2rem;
+    }
+    .ideia p{
+        font-size: 2rem;
+    }
+    .c_ideias{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    } 
+}
+
+@media screen and (max-width: 410px){
+    .header .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .menu_mobile_btn{
+        margin-left: 0;
+        padding: 3px;
+        position: absolute;
+        right: 14px;
+       
+    }
+}

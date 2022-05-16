@@ -1,0 +1,128 @@
+/* Estilização do conteúdo da pág nossos_cursos */
+ 
+.container_intro_cursos{
+    height: 400px;
+    width: 100%;
+    background-image: url('../img/bg01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.center2{
+    margin: auto;
+    width: 80%;
+}
+.text_intro{
+    max-width: 980px;
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template: auto /  auto;
+    margin: auto;
+    align-items: center;
+}
+.texts{
+    color: white;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px black;
+}
+.texts p > span{
+    font-weight: bold;
+}
+.content_cursos{
+    margin: 50px 0;
+}
+.container_content{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px 10px;
+    overflow: hidden;
+    /* justify-content: space-around ;
+    align-content: flex-end;
+    align-items: flex-start;
+    justify-items: flex-start; */
+     
+} 
+.box_curso{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+     
+    border: 1px solid #004d96;
+    /* border-bottom: none; */
+    border-radius: 8px;
+    transition: 400ms;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.box_curso:hover{
+    transform: translateY(-7px);
+}
+.box_curso img{
+    width: 100%;
+    height:auto;
+    margin: 0;
+    border-radius: 8px;
+    
+}
+.box_curso h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #014380;
+    letter-spacing: -1px;
+    font-size: 2.4rem;
+    font-weight: 100;
+    font-style: italic; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    max-width: 90%;
+    
+}
+.box_curso p{
+    font-size: 2.3rem;
+    color: rgb(22, 22, 22);
+    margin-left: 15px;
+    margin-bottom: 15px;
+    max-width: 90%;
+    text-shadow:0.1px 0.1px 0.1px rgba(0, 0, 0, 0.117); 
+
+}
+.btn_curso{
+    width: 100%;
+   
+    background-color: #004d96;
+    padding: 15px;
+   
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.btn_curso a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.btn_curso:hover{
+    background-color: #014380;
+}
+
+div .link_in{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 4px;
+    
+}
+div .link_in a{
+    border: 1px solid #004d96;
+    padding: 3px;
+    border-radius: 5px;
+}

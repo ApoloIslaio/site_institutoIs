@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Saira+Extra+Condensed:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Radio+Canada&family=Saira+Extra+Condensed:wght@300;400;500&display=swap');
+
+/* 
+#022873
+#034C8C
+#5E9ABF
+#91CCD9
+#F2F2F2
+
+#08A39C
+
+*/
+ /* Pré Estilo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    /* a cada 1rem será considerado 10px */
+    font-size: 62.5%;
+
+}
+
+html, body {
+    height: 100vh;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    font-size: 1.6rem;
+}
+/*  */
+.center{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ========== 
+HEADER
+=========== */
+header{
+    /* background-color: #004d96; */
+    background-color: #034C8C;
+    color: white;
+    padding: 18px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo h1{
+    font-size: 4rem;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+.logo h1 > span{
+    font-size: 3.8rem;
+    color: #F2F2F2;
+    border: 1px solid #034C8C;
+    background-image: linear-gradient(to right, #022873, #08a39b79);
+    padding: 0 15px;
+    border-radius: 50%;
+}
+.nome_instituto{
+    color: #F2F2F2;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* ========== 
+MENU DESKTOP
+=========== */
+.menu a:first-child{
+    margin-left: 0;
+}
+.menu a{
+    margin-left: 15px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 2.2rem;
+    border-right: 1px solid #08A39C;
+  
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/* ========== 
+iCONS SOCIAL
+=========== */
+.icons_social i{
+    color: white;
+    padding-left: 10px;
+}
+.icons_social{
+    padding: 10px;
+}
+
+/* ========== 
+MENU MOBILE
+=========== */
+.menu_mobile_btn i{
+    display: none;
+}
+.menu_mobile{
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 0;
+    height: 45%;
+    z-index: 9;
+    background-color: #004d96d7;
+    border-bottom-left-radius: 40px;
+    position: absolute; 
+    right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 1s;
+}
+.menu_items{
+    display: flex;
+    flex-direction: column;
+}
+.menu_mobile a{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 10px; 
+    padding: 10px;
+    transition: 600ms;
+}
+.menu_mobile a:hover{
+    text-decoration: underline;
+    background-color:  #013565;
+    border-radius: 8px;
+}
+.icons_social_mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ========== 
+intro_container
+=========== */
+.intro_container{
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-image: url('../img/img-banner.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.intro01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.intro01 h3{
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgb(31, 30, 30);
+}
+.intro01 p{
+    max-width: 40%;
+    font-size: 2.1rem;
+    text-shadow: 2px 2px 1px rgb(31, 30, 30);
+}
+
+
+/* ========== 
+content_container
+=========== */
+.content-container{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.content_box{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-content: center;
+}
+.content:nth-child(2n+1) {
+    background-color: #004d96;
+    color: white;
+}
+.content:nth-child(2n+1) h3{
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+     
+}
+.content h3{
+    font-size: 3.2rem;
+    color: #004d96;
+    max-width:40%;
+    
+}
+.content h3 > i{
+    margin-left: 20px;
+}
+.content p{
+   max-width: 60%;
+   font-size: 2rem;
+   line-height: 3rem;
+}
+
+/* ========== 
+ideias_container
+=========== */
+.ideias_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #08A39C;
+}
+.content_ideia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.content_ideia h3{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 2px 3px black;
+}
+.c_ideias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ideia{
+    position: relative;
+    width: 350px;
+    color: #004d96;
+    background-color: white;
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgb(41, 41, 41);
+}
+.ideia i{
+    font-size: 2.5rem;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    margin: 5px 5px;
+}
+.ideia h4{
+    color: #004d96;
+    font-size: 2.5rem;
+    margin-bottom: 3px;
+}
+.ideia p{
+    font-size: 2rem;
+}
+.content_ideia a{
+    margin: 40px 0;
+    font-size: 2rem;
+    background-color: #004d96;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.content_ideia a:hover{
+    text-decoration: underline;
+    background-color: #0932AD;
+}
+
+/* ========== 
+Footer
+=========== */
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #034C8C;
+}
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu_rodape{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.menu_rodape a{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.menu_rodape a:hover{
+    text-decoration: underline;
+}
+.icons_social-rodape i{
+    font-size:2.5rem;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+}
+.icons_social-rodape{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons_social-rodape p{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 2rem;
+ 
+}
+.footer02{
+    background-color: #014381;
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2px;
+}
