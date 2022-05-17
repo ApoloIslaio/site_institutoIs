@@ -71,7 +71,7 @@ Media queries
         font-weight: 500;
     }
     .intro01 p{
-        max-width: 70%;
+        max-width: 90%;
         font-size: 1.9rem;
     }
 
@@ -121,16 +121,59 @@ Media queries
     } 
 }
 
-@media screen and (max-width: 410px){
-    .header .logo{
+@media screen and (max-width: 400px){
+    .header .menu_mobile_btn{
+       position: absolute;
+       right: 12px; 
+    }
+
+    .center{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;   
+    }
+
+    .intro01{
+        margin: 0px 20px;
+    }
+
+    footer .footer{
+        padding-top: 0;
+        padding-bottom: 20px;
+        height: 200px;
+    }
+
+    .rodape{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    footer .footer{
+        padding-top: 0;
+        padding-bottom: 20px;
+        height: 200px;
+    }
+    center{
+        width: 90%;
+       
+    }
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width: 330px){
+    .titulo{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .header .menu_mobile_btn{
-        margin-left: 0;
-        padding: 3px;
-        position: absolute;
-        right: 14px;
+       
        
     }
 }

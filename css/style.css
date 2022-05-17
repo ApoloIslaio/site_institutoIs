@@ -30,7 +30,6 @@ html, body {
     height: 100vh;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
 }
 
 body{
@@ -62,12 +61,15 @@ header{
     align-items: center;
    
 }
-.logo h1{
+.titulo{
+    display: flex;
+}
+.logo .titulo h1{
     font-size: 4rem;
     letter-spacing: -1px;
     font-weight: 600;
 }
-.logo h1 > span{
+.titulo span{
     font-size: 3.8rem;
     color: #F2F2F2;
     border: 1px solid #034C8C;
@@ -172,6 +174,7 @@ intro_container
      
 }
 .intro01{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -180,13 +183,15 @@ intro_container
 }
 .intro01 h3{
     font-size: 60px;
-    font-weight: 500;
+    font-weight: 700;
     text-shadow: 1px 1px 1px rgb(31, 30, 30);
 }
 .intro01 p{
     max-width: 40%;
     font-size: 2.1rem;
-    text-shadow: 2px 2px 1px rgb(31, 30, 30);
+    text-shadow: 1px 1px 1px rgb(31, 30, 30);
+    color: white;
+    font-weight: 600;
 }
 
 
@@ -312,7 +317,7 @@ Footer
 .rodape{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .menu_rodape{
     margin-top: 8px;

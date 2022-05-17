@@ -91,6 +91,7 @@ html{
         box-shadow: none;
 
     }
+    
     .form_container{
         width: 100%;
         margin: 10px auto;
@@ -114,4 +115,25 @@ html{
         font-size: 1.8rem;
         padding: 8px;
     }
+}
+
+@media screen and (max-width: 400px){
+    .form_container{
+      margin: 20px;
+    }
+    .link_email a{
+        font-size: 2rem;
+    }
+    .tel p{
+        font-size: 2rem;
+   }
+   .info_tel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .num_tel{
+        margin-top: 5px;
+    }
+
 }

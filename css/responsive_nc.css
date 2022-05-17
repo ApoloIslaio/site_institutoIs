@@ -1,0 +1,22 @@
+
+
+@media screen and (max-width: 420px){
+    .center2{
+        margin: auto;
+        width: 100%;
+    }
+    .container_content{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px 10px;
+        overflow: hidden;
+        /* justify-content: space-around ;
+        align-content: flex-end;
+        align-items: flex-start;
+        justify-items: flex-start; */
+         
+    } 
+}
+

@@ -80,6 +80,15 @@ content_ctt
     font-size: 2.4rem;
     color: #014380;
 }
+
+.info_tel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info_tel i{
+    font-size: 20px;
+}
 .tel p{
     font-size: 2.4rem;
     color: #014380;
