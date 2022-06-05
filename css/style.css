@@ -363,3 +363,34 @@ Footer
     text-align: center;
     padding: 2px;
 }
+
+#backToTopButton{
+
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+
+    box-shadow: 10px 10 px 2px black;
+
+    transform: translateY(100%);
+
+    transition: 500ms;
+}
+#backToTopButton.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+#backToTopButton circle{
+     fill: #416e97;
+     
+}
+#backToTopButton path{
+    stroke: white;
+    
+}

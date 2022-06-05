@@ -17,3 +17,18 @@ function showMenuMobile(){
         touch_icon = 'false'
     }
 }
+
+window.addEventListener('scroll', onScroll);
+
+function onScroll(){
+    showBackToTopButton();
+}
+
+
+function showBackToTopButton(){
+    if(scrollY > 500){
+        backToTopButton.classList.add('show'); 
+    }else{
+        backToTopButton.classList.remove('show')
+    }
+}
