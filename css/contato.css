@@ -1,172 +1,158 @@
-
 /* ====================
 content_ctt
 =====================
 */
-.content_ctt{
-    max-width: 980px;
-    height: 300px;
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    
+.content_ctt {
+  max-width: 980px;
+  height: 300px;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .title {
-    font-size: 2rem;
-    max-width: 30%;
+  font-size: 2rem;
+  max-width: 30%;
 }
-.title h1{
-    color: #014380;
+.title h1 {
+  color: #014380;
 }
-.mapa{
-   width: 60%;
-   text-align: center;
-
-
+.mapa {
+  width: 60%;
+  text-align: center;
 }
-.mapa img{
-    width: 80%;
-    height:auto;
-    /* box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15), 
+.mapa img {
+  width: 80%;
+  height: auto;
+  /* box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15), 
     0px 10px 20px -10px rgba(0, 0, 0, 0.1) */
 }
-
-
 
 /* ====================
 .container_info
 =====================
 */
-.container_info{
-    max-width: 980px;
-    height: 300px;
-    width: 90%;
-    margin: auto; 
-    margin-top: 20px;
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: space-between;
+.container_info {
+  max-width: 980px;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn_ctt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -70px;
-}
- 
-.link_whatsapp{
-    margin-bottom: 50px;
-}
-.link_whatsapp a{
-    background-image: linear-gradient( to right, #038f4b, #017a60);
-    font-size: 2.4rem;
-    font-weight: 600;
-    padding: 10px 30px;
-    color: white;
-    
-}
-.link_whatsapp a:hover{
-    background-image: linear-gradient( to right, #048c4a, #025745);
-}
-.link_email{
-    margin-bottom: 20px;
-}
-.link_email a{
-    font-size: 2.4rem;
-    color: #014380;
+.btn_ctt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -70px;
 }
 
-.info_tel{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.link_whatsapp {
+  margin-bottom: 50px;
 }
-.info_tel i{
-    font-size: 20px;
+.link_whatsapp a {
+  background-image: linear-gradient(to right, #038f4b, #017a60);
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 10px 30px;
+  color: white;
 }
-.tel p{
-    font-size: 2.4rem;
-    color: #014380;
+.link_whatsapp a:hover {
+  background-image: linear-gradient(to right, #048c4a, #025745);
+}
+.link_email {
+  margin-bottom: 20px;
+}
+.link_email a {
+  font-size: 2.4rem;
+  color: #014380;
 }
 
-.endereco{
-    color: #014380;
-    font-size: 2rem;
+.info_tel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info_tel i {
+  font-size: 20px;
+}
+.tel p {
+  font-size: 2.4rem;
+  color: #014380;
 }
 
-
-
+.endereco {
+  color: #014380;
+  font-size: 2rem;
+}
 
 /* ====================
 FORM
 =====================
 */
-#form{
-    background-color: #014380;
+#form {
+  background-color: #014380;
 }
-.form_container{
-    width: 90%;
-    margin: auto;
-   
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 20px;
-    padding: 40px;
-    background-color: white;
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15), 
-    0px 10px 20px -10px rgba(0, 0, 0, 0.1)
-}
-.form h3{
-    font-size: 2.6rem;
-    color: #014380;
-    margin-bottom: 10px;
+.form_container {
+  width: 90%;
+  margin: auto;
 }
 
-.form_group{
-    display: flex;
-    flex-direction: row;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15),
+    0px 10px 20px -10px rgba(0, 0, 0, 0.1);
+}
+.form h3 {
+  font-size: 2.6rem;
+  color: #014380;
+  margin-bottom: 10px;
 }
 
-.input_control{
-    flex: 1 1;
-    display: block;
-    margin:   8px 8px;
-    padding: 12px;
-    font-size: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.467);
-}
-.input_msg{
-    padding: 12px;
-    font-size: 2rem;
-    width: 100%;
-    margin: 0px 8px;
-    border: 1px solid rgba(0, 0, 0, 0.467);
-}
-.button{
-    width: 80px;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 10px;
-    background-color: #014380;
-    color: white;
-    border-radius: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-left: 8px;
-    transition: 500ms;
-
-}
-.button:hover{
-    background-color: #03539e;
+.form_group {
+  display: flex;
+  flex-direction: row;
 }
 
-
+.input_control {
+  flex: 1 1;
+  display: block;
+  margin: 8px 8px;
+  padding: 12px;
+  font-size: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.467);
+}
+.input_msg {
+  padding: 12px;
+  font-size: 2rem;
+  width: 100%;
+  margin: 0px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.467);
+}
+.button {
+  width: 80px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #014380;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-left: 8px;
+  transition: 500ms;
+}
+.button:hover {
+  background-color: #03539e;
+}

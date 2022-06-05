@@ -13,7 +13,7 @@ function showMenuMobile(){
         touch_icon = 'true'
     }else{
         btn_menu.setAttribute('class', 'fa-solid fa-x');
-        menu_mobile.style.width = '60%'
+        menu_mobile.style.width = '85%'
         touch_icon = 'false'
     }
 }

@@ -1,5 +1,8 @@
+/* NOSSOS CURSOS RESPONSIVO */
 
-
+html{
+    font-size: 50%;
+}
 @media screen and (max-width: 420px){
     .center2{
         margin: auto;

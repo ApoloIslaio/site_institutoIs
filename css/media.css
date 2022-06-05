@@ -53,6 +53,12 @@ Media queries
        display: block;  
        font-size: 3.4rem;
        padding: 10px;
+
+       position: absolute;
+       top: 25px;
+       right: 10px;
+       z-index: 100;
+       
     }
     .menu_mobile_btn{
         margin-left: 0px;
@@ -122,11 +128,6 @@ Media queries
 }
 
 @media screen and (max-width: 400px){
-    .header .menu_mobile_btn{
-       position: absolute;
-       right: 12px; 
-    }
-
     .center{
         margin: auto;
         width: 100%;
@@ -168,12 +169,7 @@ Media queries
 
 @media screen and (max-width: 330px){
     .titulo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: 2rem;
     }
-    .header .menu_mobile_btn{
-       
-       
-    }
+    
 }
