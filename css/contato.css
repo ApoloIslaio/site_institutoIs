@@ -57,6 +57,7 @@ content_ctt
   margin-bottom: 50px;
 }
 .link_whatsapp a {
+    display: block;
   background-image: linear-gradient(to right, #038f4b, #017a60);
   font-size: 2.4rem;
   font-weight: 600;

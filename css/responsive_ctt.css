@@ -53,6 +53,12 @@ html{
         flex-direction: column;
         justify-content: space-between;
     }
+    .btn_ctt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:initial;
+    }
     .endereco{
         order: -1;
         color: #014380;
@@ -61,7 +67,9 @@ html{
        
     }
     .link_whatsapp{
-        margin-top: 15px;
+        /* margin-top: 15px; */
+
+        padding-top: 2rem;
         margin-bottom: 0px;
     }
      
