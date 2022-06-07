@@ -55,17 +55,21 @@ content_ctt
 
 .link_whatsapp {
   margin-bottom: 50px;
+  
 }
 .link_whatsapp a {
+  text-align: center;
     display: block;
   background-image: linear-gradient(to right, #038f4b, #017a60);
   font-size: 2.4rem;
   font-weight: 600;
   padding: 10px 30px;
   color: white;
+  border-radius: 6px;
+  transition: 300ms;
 }
 .link_whatsapp a:hover {
-  background-image: linear-gradient(to right, #048c4a, #025745);
+  filter: brightness(0.9);
 }
 .link_email {
   margin-bottom: 20px;

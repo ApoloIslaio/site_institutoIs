@@ -68,9 +68,13 @@ html{
     }
     .link_whatsapp{
         /* margin-top: 15px; */
-
+        width: 200px;
+        margin-inline: auto;
         padding-top: 2rem;
+        padding-inline: 0.4rem;
         margin-bottom: 0px;
+
+        
     }
      
     .link_email{
