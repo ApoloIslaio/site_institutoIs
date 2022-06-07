@@ -49,15 +49,16 @@ Media queries
     .menu_mobile{
         display:flex;
     }
+    div.menu_mobile_btn{
+        position: relative;
+    }
     .menu_mobile_btn i{
        display: block;  
        font-size: 3.4rem;
        padding: 10px;
-
-       position: absolute;
-       top: 25px;
-       right: 10px;
-       z-index: 100;
+       
+        
+       
        
     }
     .menu_mobile_btn{
@@ -146,7 +147,15 @@ Media queries
     }
 
     .rodape{
-        padding: 10px;
+        padding-inline: 2rem;
+    }
+
+    .icons_social-rodape{
+        width: 45%;
+        text-align: left;
+    }
+    .icons_social-rodape p{
+        padding-bottom: 2rem;
     }
 }
 

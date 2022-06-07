@@ -123,8 +123,13 @@ iCONS SOCIAL
 /* ========== 
 MENU MOBILE
 =========== */
+div.menu_mobile_btn{
+   position: absolute;
+   z-index: 100;
+}
 .menu_mobile_btn i{
     display: none;
+    
 }
 .menu_mobile{
     display: none;
@@ -326,6 +331,7 @@ Footer
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 .menu_rodape{
     margin-top: 8px;
@@ -355,7 +361,7 @@ Footer
 }
 .icons_social-rodape p{
     color: white;
-    margin-bottom: 5px;
+    padding-bottom: 3rem;
     font-size: 2rem;
  
 }
